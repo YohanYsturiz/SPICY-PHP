@@ -1,0 +1,226 @@
+<!DOCTYPE html >
+<html lang="en">
+	<head>
+	<meta charset="UFT-8">
+	<title>Boostrap</title>
+	<meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript">
+            $(function () {
+                $('#datetimepicker').data("DateTimePicker");
+           
+
+            });
+        </script>
+
+	</head>
+<nav role="navigation" class="navbar navbar-inverse">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Brand</a>
+    </div>
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" placeholder="Search" class="form-control">
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+</nav>
+— The output of the above example will look something like this:
+	<body>
+	<div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+		<h1>Este es un header</h1>
+		<button class="btn btn-primary">Boton boosttrap</button>
+		<form class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-xs-3">Email:</label>
+        <div class="col-xs-9">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Confirmar Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" placeholder="Confirmar Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Nombre:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3" >Telefono:</label>
+        <div class="col-xs-9">
+            <input type="tel" class="form-control" placeholder="Telefono">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">F. Nacimiento:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Dia</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Mes</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Año</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dirección:</label>
+        <div class="col-xs-9">
+            <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Genero:</label>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="male"> Maculino
+            </label>
+        </div>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="female"> Femenino
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="news"> Enviar noticias.
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="agree">  Accepto <a href="#">Terminos y condiciones</a>.
+            </label>
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            <input type="reset" class="btn btn-default" value="Limpiar">
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker2').datetimepicker({
+                    locale: 'ru'
+                });
+            });
+        </script>
+    </div>
+</div>
+
+</form>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>

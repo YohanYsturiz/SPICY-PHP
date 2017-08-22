@@ -1,0 +1,62 @@
+@charset "utf-8";
+body{
+	font: small "Trebuchet MS", Verdana, sans-serif;
+	background-color: #f9f7f4;
+	text-align: center;
+}
+#contenedor{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	text-align: left;
+	width: 40em;
+	margin: auto;
+	padding: 1em;
+}
+fieldset{
+	border: 1px dotted #ccc;
+	width: 30em;
+	padding: 1em;
+}
+.key{
+	text-decoration: underline;
+}
+input:focus, label:focus {
+	background: #fff;
+	border: 1px solid #333;
+}
+input, select{
+	background: #f4f4f4;
+	border: 1px solid #b2b2b2;
+	color: #000;
+	margin: 1px;
+	padding: 1px;
+}
+.msg{
+	color: #000066;
+	display: block;
+}
+table{
+	width: 100%;
+}
+th{
+	font-weight: bold;
+	background-color: #000066;
+	color: #fff;
+	text-align: center;
+}
+#pie{
+	margin-top: 1em;
+	border: 1px solid #ccc;
+	font-size: 0.9em;
+	text-align: center;
+}
+#cabecera{
+	text-align: center;
+}
+a:link, a:visited{
+	color: #c85b5b;
+	text-decoration: none;
+}
+a img{
+	border: 0;
+}

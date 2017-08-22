@@ -1,0 +1,104 @@
+@import url('fuentes.css'); 
+
+* {
+	margin:0px;
+	padding:10px 0px;
+}
+
+body {
+	background:url(../imagenes/background.gif);
+	background-position:center;
+}
+
+#wrap {
+	width:960px;
+	margin:auto;
+	clear:both;
+}
+
+
+form {
+	background:#333333;
+	position:absolute;
+	width:400px;
+	border:1px solid #4e4d4d;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	box-shadow:inset 0 0 10px #000;
+	margin:100px 0px 50px 270px;
+	float:center;
+}
+
+form h1 {
+	text-align:center;
+	color:#fff;
+	font-weight: normal;
+	font-size:40pt;
+	margin:30px 0px;
+	font-family:sourcesans;
+}
+
+form table h2 {
+	text-align:left;
+	color:#fff;
+	font-weight: normal;
+	font-size:16pt;
+	margin:30px 0px 0px 30px;
+	font-family:sourcesans-light;
+}
+
+form table {
+	padding: 10px 0px 0px 30px;
+	margin:10px auto;
+}
+
+form input {
+	width:280px;
+	height: 35px;
+	margin:10px 50px;
+	color: #6d6d6d;
+	text-align:center;
+	border-radius:5px;
+}
+
+form #table3 #submit {
+	width:135px;
+	margin:20px 7px 30px 10px;
+	float:center;
+	height:50px;
+	font-family:sourcesans;
+	background: rgb(60,60,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(60,60,60,1) 0%, rgba(42,40,40,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(42,40,40,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+		-moz-box-shadow:0px 2px 0px #000;
+		-webkit-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+}
+
+form #table3 #submit:hover {
+	background:#3a3a3a;
+}
+
+form #table3 #submit:active {
+	background: rgb(42,40,40); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(42,40,40,1) 0%, rgba(60,60,60,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(42,40,40,1)), color-stop(100%,rgba(60,60,60,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2828', endColorstr='#3c3c3c',GradientType=0 ); /* IE6-9 */
+
+}
+

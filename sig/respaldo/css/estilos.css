@@ -1,0 +1,12 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos Generales ---*/
+
+#main-content {
+  background: white;
+  width: 100%;
+  max-width: 950px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}

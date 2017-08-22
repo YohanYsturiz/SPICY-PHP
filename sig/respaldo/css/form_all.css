@@ -1,0 +1,159 @@
+@import url('fuentes.css'); 
+
+* {
+	margin:0px;
+	padding:10px 0px;
+}
+
+body {
+	background:url(../imagenes/background.gif);
+	background-position:center;
+}
+
+#wrap {
+	width:960px;
+	margin:auto;
+	clear:both;
+}
+
+
+form {
+	background:#333333;
+	position:absolute;
+	width:960px;
+	border:1px solid #4e4d4d;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	box-shadow:inset 0 0 10px #000;
+	margin:50px auto;
+	float:left;
+}
+
+form h1 {
+	text-align:center;
+	color:#fff;
+	font-weight: normal;
+	font-size:40pt;
+	margin:30px 0px;
+	font-family:sourcesans;
+}
+
+form h2 {
+	text-align:left;
+	color:#fff;
+	font-weight: normal;
+	font-size:16pt;
+	margin:30px 0px 0px 30px;
+	font-family:sourcesans-light;
+}
+
+form table {
+	padding: 10px 0px 0px 30px;
+	margin:30px auto;
+}
+
+form #table2 #text {
+	width:250px;
+	height: 35px;
+	padding: 0px 10px;
+	margin:10px 30px;
+	background: rgb(225,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(225,255,255,1)), color-stop(7%,rgba(225,255,255,1)), color-stop(12%,rgba(225,255,255,1)), color-stop(12%,rgba(253,255,255,1)), color-stop(30%,rgba(230,248,253,1)), color-stop(54%,rgba(200,238,251,1)), color-stop(75%,rgba(190,228,248,1)), color-stop(100%,rgba(177,216,245,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+
+	text-align:left;
+	border-radius:5px;
+}
+
+form input {
+	width:250px;
+	height: 35px;
+	padding: 0px 10px;
+	margin:10px 30px;
+	color: #6d6d6d;
+	text-align:left;
+	border-radius:5px;
+}
+
+form select {
+	width:250px;
+	height: 35px;
+	padding: 0px 10px;
+	margin:10px 30px;
+	color: #6d6d6d;
+	text-align:center;
+	border-radius:5px;
+}
+
+form button {
+	width:135px;
+	margin:20px 0px 30px 100px;
+	float:center;
+	height:50px;
+	font-family:sourcesans;
+	background: rgb(60,60,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(60,60,60,1) 0%, rgba(42,40,40,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(42,40,40,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+		-moz-box-shadow:0px 2px 0px #000;
+		-webkit-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+}
+
+
+form button:active {
+	background: rgb(42,40,40); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(42,40,40,1) 0%, rgba(60,60,60,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(42,40,40,1)), color-stop(100%,rgba(60,60,60,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(42,40,40,1) 0%,rgba(60,60,60,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2828', endColorstr='#3c3c3c',GradientType=0 ); /* IE6-9 */
+
+}
+
+form #submit {
+	width:135px;
+	margin:20px 0px 30px 100px;
+	float:center;
+	text-align:center;
+	height:50px;
+	font-family:sourcesans;
+	background: rgb(60,60,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(60,60,60,1) 0%, rgba(42,40,40,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(42,40,40,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+		-moz-box-shadow:0px 2px 0px #000;
+		-webkit-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+}
+
+form #submit:hover {
+	background:#3a3a3a;
+}
+

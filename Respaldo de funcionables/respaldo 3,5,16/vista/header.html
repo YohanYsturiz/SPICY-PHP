@@ -1,0 +1,43 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SPICY</a>
+    </div>
+    <ul class="nav navbar-nav tabs">
+            <li class="active"><a href="../index.php">Inicio</a></li>
+          
+            <li class="dropdown" data-dropdown="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" type="button">Investigaciones</a>
+            <ul class="dropdown-menu" role="menu">
+		      <li><a href="#">Secondary link</a></li>
+		      <li><a href="#">Something else here</a></li>
+		      <li class="divider"></li>
+		      <li><a href="#">Another link</a></li>
+		    </ul>
+		    </ul>
+		      <ul class="nav navbar-nav">
+           </li>
+            <li><a href="../vista/eventos.php">Eventos</a></li>
+            <li><a href="#">Evaluaciones</a></li>
+            <li><a href="#">Estadisticas</a></li>
+          <!--   <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li class="divider">divide</li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+            </li> -->
+        </ul>
+        <form method="post" action="../controlador/cont_consult_una_inv.php" role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" placeholder="Buscar" name="nombre_inv" class="form-control">
+            </div>
+        </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span><?php echo " ". $_SESSION['usuario'];?></a></li>
+      <li><a href="vis_login.php"><span class="glyphicon glyphicon-log-in"></span> finish</a></li>
+
+  </div>
+</nav>

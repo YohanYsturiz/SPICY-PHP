@@ -1,0 +1,1 @@
+select status from sig_cuc.investigaciones where fecha_c between '2016-05-07' and '2016-05-30'; 

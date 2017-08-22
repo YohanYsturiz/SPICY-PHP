@@ -1,0 +1,71 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SPICY</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="../index.php">Inicio</a></li>
+            <li class="dropdown pull-right">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventos<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="vista/vis_add_even.php">Agregar Evento</a></li>
+                    <li><a href="vista/vis_consult_all_even.php">Consultar Todos</a></li>
+                    <li><a href="#">Reseñas de eventos</a></li>
+                    </ul>
+                    </li>
+                <li class="dropdown pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigaciones<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                    <li><a href="vista/add_inv.php">Agregar Investigacion</a></li>
+                    <li><a href="vista/vis_consult_all_inv.php">Consultar Todas</a></li>
+                    <li><a href="#">Historial</a></li>
+                    </ul>
+                    </li>
+            <li><a href="vista/estadisticas.php">Estadisticas</a></li>
+            <li><a href="vista/evaluaciones.php">Evaluaciones</a></li>
+            <?php  
+            if ($cod_usuario == 1){
+            ?>
+                <li><a href="vista/panel_control_administrador.php">Panel de control</a></li>
+           <?php
+            }
+           ?>
+    </ul>
+          <!--   <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li class="divider">divide</li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+            </li> -->
+        
+       <!--  <ul class="user-menu">
+                    <li class="dropdown pull-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Profile</a></li>
+                            <li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Settings</a></li>
+                            <li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul> -->
+        <form method="post" action="controlador/cont_consult_una_inv.php" role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" placeholder="Buscar" name="nombre_inv" class="form-control">
+            </div>
+        </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown pull-right">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span><?php echo " ". $_SESSION['usuario'];?></a>
+       <ul class="dropdown-menu" role="menu">
+            <li><a href="vista/perfil_usu.php">Mi perfil</a></li>
+            <li><a data-toggle="modal" data-target="#myModalusuario">Configurar perfil</a></li>
+            <li><a href="vista/vis_login.php">Cerrar Sesion</a></li>
+       </ul>
+        </li>
+    </ul>
+  </div>
+</nav>
